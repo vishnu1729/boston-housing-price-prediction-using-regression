@@ -26,4 +26,8 @@ The various statistical measures of the data are obtained using the relevant fun
 - `The average price among houses is $225,328.06.`
 - `The standard deviation of prices among houses is $91,880.12.`
 
+### The model complexity curves
+
+The model complexity curves are the curves that are genrated when the training and test error are recorded as the complexity of the model is varied. The following curves depict the generated curves. The parameter is varied from 2 to the limit specified by the user. This is because decision trees require a minimum depth of 2. 
+
 
