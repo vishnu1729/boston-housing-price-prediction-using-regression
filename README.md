@@ -31,9 +31,9 @@ The various statistical measures of the data are obtained using the relevant fun
 The model complexity curves are the curves that are genrated when the training and test error are recorded as the complexity of the model is varied. The following curves depict the generated curves. The parameter is varied from 2 to the limit specified by the user. This is because decision trees require a minimum depth of 2. 
 
 <p align="center">
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/decistiontreemodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/knnmodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adaboostmodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/decistiontreemodelcomplexity.png"  width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/knnmodelcomplexity.png" width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adaboostmodelcomplexity.png"  width="450"/>
 </p>
 
 
