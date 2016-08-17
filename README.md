@@ -32,6 +32,8 @@ The model complexity curves are the curves that are genrated when the training a
 
 <p align="center">
   <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/decistiontreemodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/knnmodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adaboostmodelcomplexity.png" title="Figure 1. Decision Tree Regressor Mddel Complexity" width="450"/>
 </p>
 
 
