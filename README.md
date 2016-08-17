@@ -31,11 +31,15 @@ The various statistical measures of the data are obtained using the relevant fun
 The model complexity curves are the curves that are genrated when the training and test error are recorded as the complexity of the model is varied. The following curves depict the generated curves. The parameter is varied from 2 to the limit specified by the user. This is because decision trees require a minimum depth of 2. 
 
 <p align="center">
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/decistiontreemodelcomplexity.png"  width="450"/>
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/knnmodelcomplexity.png" width="450"/>
-  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adabosstmodelcomplexity.png"  width="450"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/decistiontreemodelcomplexity.png"  width="150"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/knnmodelcomplexity.png" width="150"/>
+  <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adabosstmodelcomplexity.png"  width="150"/>
 </p>
 
 As it can be oberved in the case for Decision Tree Regressor, the model starts to overfit the data after the `max_depth` parameter is 
-increased beyond 5. This is because the test error begins to show a declining trend and the training error approaches an R^2 score of 1. In the second image, the model complexity for the kNN regressor is shown.  In this case, when the number of neighbors `n_neighbors` is increased beyond 3, the training error and the test error begin decrease. For the AdaBoost regressor, the training error and test error settle and oscillate around ~0.9 when the number of the base learner `n_estimators` reaches 10. 
+increased beyond 5. This is because the test error begins to show a declining trend and the training error approaches an R^2 score of 1. In the second image, the model complexity for the kNN regressor is shown.  In this case, when the number of neighbors `n_neighbors` is increased beyond 3, the training error and the test error begin decrease. For the AdaBoost regressor, the training error and test error settle and oscillate around ~0.9 when the number of the base learner `n_estimators` reaches 10. Thusit can be conlsuded that the best parameters for the different regressors can be thought to be around:
+- Decision Tree regressor: `max_depth` = 5
+- kNN regressor: `n_neighbors' = 3
+- AdaBoost regressor: `n_estimators` = 10
 
+### The learning curves
