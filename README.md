@@ -36,4 +36,6 @@ The model complexity curves are the curves that are genrated when the training a
   <img src="https://github.com/vishnu1729/boston-housing-price-prediction-using-regression/blob/master/adabosstmodelcomplexity.png"  width="450"/>
 </p>
 
+As it can be oberved in the case for Decision Tree Regressor, the model starts to overfit the data after the `max_depth` parameter is 
+increased beyond 5. This is because the test error begins to show a declining trend and the training error approaches an R^2 score of 1. In the second image, the model complexity for the kNN regressor is shown.  In this case, when the number of neighbors `n_neighbors` is increased beyond 3, the training error and the test error begin decrease. For the AdaBoost regressor, the training error and test error settle and oscillate around ~0.9 when the number of the base learner `n_estimators` reaches 10. 
 
