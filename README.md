@@ -57,11 +57,11 @@ The learning curves shows that training and test error come close to each other 
 ## Find the best guess price for the given feature set: [11.95, 0.00, 18.100, 0, 0.6590, 5.6090, 90.00, 1.385, 24, 680.0, 20.20, 332.09, 12.13].
 
 The best guess price varies when a different regressor is used. For each regressor, `GirdSearchCV()` function is used to perform a grid-search on the appropriate gird of parameters. The following reults were obtained:
--Decision tree regressor
+- Decision tree regressor
 `Recommended selling price is $216,297.44`
--kNN regressor
+- kNN regressor
 `Recommended selling price is $204,000.00`
--AdaBoost regressor
+- AdaBoost regressor
 `Recommended selling price is $203,452.99`
 
 The expected price that the seller can expect to sell the house is $207,916.81.
