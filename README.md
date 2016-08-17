@@ -19,9 +19,9 @@ bostonData = load_boston()
 ```
 
 The various statistical measures of the data are obtained using the relevant functions in numpy. 
-- The number of houses is 506.
-- The number of features for each house is 13.
-- The maximum price among houses is $500,000.00.
-- The minimum price among houses is $50,000.00.
-- The average price among houses is $225,328.06.
-- The standard deviation of prices among houses is $91,880.12.
+- `The number of houses is 506.`
+- `The number of features for each house is 13.`
+- `The maximum price among houses is $500,000.00.`
+- `The minimum price among houses is $50,000.00.`
+- `The average price among houses is $225,328.06.`
+- `The standard deviation of prices among houses is $91,880.12.`
